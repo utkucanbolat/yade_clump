@@ -59,9 +59,8 @@ class MultiSphere:
 
         # each element of clump_radii is list but we need float
         # so we change them into list of floats first
-        temp_list = [float(i) for i in self.clump_radii]
-
-        clump_r = temp_list
+ 
+        clump_r = [float(i) for i in self.clump_radii]
         clump_p = np.ndarray.tolist(self.clump_pos)
 
         template = [clumpTemplate(relRadii=clump_r, relPositions=clump_p)]
