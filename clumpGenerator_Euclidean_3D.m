@@ -1,5 +1,6 @@
 function [mesh, clump]=clumpGenerator_Euclidean_3D(stlFile, N, rMin, div, overlap, output_file, varargin)
 
+# Utku - I added these four lines the parse arguments correctly.
 N = str2num(N)
 rMin = str2num(rMin)
 div = str2num(div)
