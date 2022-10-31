@@ -55,7 +55,7 @@ class MultiSphere:
     def create_template(self):
         """To make a pack of clumps one can use pack.SpherePack() together with bodies.replaceByClumps.
         To replace spheres with clumps, one must create a clump template because bodies.replaceByClumps only accepts
-        clump template. This function create the template from a given clump."""
+        clump template. This function creates the template from a given clump."""
 
         # each element of clump_radii is list but we need float
         # so we change them into list of floats first
